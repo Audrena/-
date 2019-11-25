@@ -1,0 +1,16 @@
+##判断一列是否在另一列中
+#方法一：实际工作a/b列有较多数据，
+#a = [1, 2, 3]
+#b = [2,3]  
+d = [False for c in b if c not in a]
+d
+
+'''
+#此方法，可看有多少个b在a中
+c=[]
+for i in b:
+    if i in a:
+        c.append(1)
+    else:
+        c.append(0)
+'''
